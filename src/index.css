@@ -1,0 +1,262 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color-scheme: light dark;
+  --color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
+.border-bottom {
+  border-width: 2px !important;
+}
+
+a {
+  color: #fff !important;
+}
+
+.nav-item a {
+  font-size: 14px !important;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: ease-in-out 0.3s;
+}
+
+.minnav {
+  background-color: #6a79ff !important;
+}
+
+.select {
+  font-size: 14px !important;
+  background-color: #6a79ff !important;
+}
+
+.main-banner-content a, .side-banner-content a {
+  background-color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.fs_6 {
+  font-size: 14px !important;
+}
+
+.side-banner {
+  width: 49%;
+  /* height: 50%; */
+}
+
+.home-wrapper-2 {
+  background-color: #f5f5f7;
+}
+
+.services small {
+  margin-top: -13px !important;
+  /* font-size: 14px !important; */
+  /* font-weight: 500; */
+}
+
+.services h6 {
+  margin-bottom: 0px;
+}
+
+.categories {
+  background-color: #fff;
+  padding: 28px 16px;
+  box-shadow: 0 0 10px #dedee0;
+}
+
+.categories h6 {
+  font-size: 14px !important;
+}
+
+.categories small {
+  font-size: 12px !important;
+  color: gray;
+  /* font-weight: bold; */
+}
+
+.categories .border-end {
+  border-width: 1px !important;
+  
+}
+
+.categories-inner {
+  width: 24%;
+}
+
+.feature {
+  box-shadow: 0 0 10px #dedee0;
+  width: 16%;
+}
+
+.featuredbig, .newscard {
+  box-shadow: 0 0 10px #dedee0;
+  width: 24%;
+}
+
+.feature .img {
+  width: 140px;
+}
+
+.feature small {
+  font-size: 12px !important;
+}
+
+.feature h6 {
+  font-size: 13px !important;
+  color: #424242;
+}
+
+.featuredbig img {
+  width: 220px;
+}
+
+.featuredbig small {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.featuredbig p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.specialcard {
+  box-shadow: 0 0 10px #dedee0;
+  width: 32%;
+}
+
+.productimg img {
+  width: 200px;
+}
+
+.product-card img {
+  width: 80px;
+}
+
+.wish_bar img {
+  width: 16px;
+}
+
+.labe {
+  font-size: 14px;
+}
+
+.small-img img {
+  width: 45px;
+}
+
+.small-img small {
+  font-weight: bold;
+  color: gray;
+}
+
+.image-party img {
+  width: 120px;
+}
+
+.image-party {
+  position: absolute;
+  bottom: 0;
+  right: 00;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.relative small {
+  font-size: 14px !important;
+}
+
+.brand {
+  box-shadow: 0 0 10px #dedee0;
+}
+
+.newscard img {
+  width: 324px;
+  height: 200px;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.read-btn button {
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.read-btn button:hover {
+  color: black !important;
+  background-color: gray !important;
+  transition: ease-in-out 0.3s;
+}
+
+.small-img small:hover, .small-img small:focus {
+  color: #000;
+  transition: ease-in-out 0.2s;
+}
+
+.featuredbig:hover, .feature:hover, .specialcard:hover {
+  margin-top: -16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.newscard:hover {
+  transition: ease-in-out 0.2s;
+}
+
+
+@media screen and (max-width: 991px) {
+  .side-banner {
+    margin-top: 10px;
+    width: 49%;
+    /* height: 50%; */
+  }
+
+  .categories-inner {
+    width: 100%;
+  }
+
+  .feature {
+    width: 44%;
+    margin: 10px auto;
+  }
+
+  .featuredbig, .newscard {
+    width: 40%;
+  }
+
+  .specialcard {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feature {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .featuredbig, .newscard {
+    width: 90%;
+  }
+
+  .specialcard {
+    width: 90%;
+  }
+}
